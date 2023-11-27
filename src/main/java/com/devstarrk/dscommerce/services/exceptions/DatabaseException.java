@@ -1,7 +1,7 @@
 package com.devstarrk.dscommerce.services.exceptions;
 
-public class ResourceNotFoundException extends RuntimeException{
-    public ResourceNotFoundException(String msg){
+public class DatabaseException extends RuntimeException{
+    public DatabaseException(String msg){
         super(msg);
     }
 }
